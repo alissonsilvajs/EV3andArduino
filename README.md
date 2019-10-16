@@ -74,10 +74,10 @@ void readData()
 ```
 
 ## Read 1 byte from Arduino
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
+ ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
 ## Read 8 bytes from Arduino
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
+ ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
 ## Send 1 byte from Arduino
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
+ ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
 ## Send 8 bytes from Arduino
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
+ ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)

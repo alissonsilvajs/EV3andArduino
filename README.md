@@ -1,8 +1,7 @@
 # EV3 and Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
   A simple tutorial of how to communicate between the Arduino and the EV3, using I2C.
- 
-## Requeriments
+ ### Requeriments
   - Arduino.
   - EV3.
   - EV3 Cable.
@@ -34,7 +33,7 @@ void setup()
 ```
 
 ## Send 1 byte to EV3
-  - `Wire.write();`: safdasda
+  - `Wire.write();`: Send the byte 
 ### Example:
 ```
 void sendData()
@@ -45,7 +44,7 @@ void sendData()
 ```
 
 ## Read 1 byte from EV3
-  - `Wire.read();`: dasdad
+  - `Wire.read();`: Receive the byte
 ### Example:
 ```
 void readData()
@@ -58,7 +57,7 @@ void readData()
 ```
 
 ## Read 8 bytes from EV3
-  - `Wire.read();`: dasdad
+  - `Wire.read();`: Receive the bytes 
 ### Example:
 ```
 void readData()

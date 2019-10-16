@@ -6,7 +6,7 @@
   - Arduino.
   - EV3.
   - EV3 Cable.
-  - 2x 40kΩ Resistor Pull-Up (Optional, if the a communication was with problems, use the resistors!).
+  - 2x - 40kΩ Resistor Pull-Up (Optional, if the a communication was with problems, use the resistors!).
  
 ## EV3 and Arduino Pinout
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)

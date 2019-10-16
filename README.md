@@ -6,6 +6,42 @@
   
 # 
   
-# Write data to Arduino
+# Send 1 byte to EV3
+  - `Wire.write();`: safdasda
+### Example:
+```
+void sendData()
+{
+  int s2 = 1
+  Wire.write(s2);
+}
+```
 
-# Read data on EV3
+# Read 1 byte from EV3
+  - `Wire.read();`: dasdad
+### Example:
+```
+void readData()
+{
+    while(Wire.available()>0)
+    {
+      int s2 = Wire.read();
+    }
+}
+```
+
+# Read 8 bytes from EV3
+  - `Wire.read();`: dasdad
+### Example:
+```
+void readData()
+{
+    while(Wire.available()>0)
+    {
+      int s2 = Wire.read();
+      for (int i = 0; i = 7; i++) {
+        Wire.read();
+      }
+    }
+}
+```

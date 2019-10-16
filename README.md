@@ -9,6 +9,15 @@
   - I2C Clock - Yellow
   - I2C Data - Blue
   
+## Library used:
+
+  - Wire:
+  
+```
+#include <Wire.h> 
+#define SLAVE_ADDRESS 0x04
+```
+
 ## Send 1 byte to EV3
   - `Wire.write();`: safdasda
 ### Example:

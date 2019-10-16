@@ -1,28 +1,35 @@
-# EV3andArduino
+# EV3 and Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
-  💬 Tutorial of how to communicate between Arduino and EV3, using I2C.
+  A simple tutorial of how to communicate between the Arduino and the EV3, using I2C.
+ 
+# Requeriments
+  - Arduino.
+  - EV3.
+  - EV3 Cable.
+  - 2x 40kΩ Resistor Pull-Up (Optional, if the a communication was with problems, use the resistors!).
+ 
 ## EV3 and Arduino Pinout
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
-  - Analog - White
-  - Ground - Black
-  - Ground - Red
-  - Vin - Green
-  - I2C Clock - Yellow
-  - I2C Data - Blue
+  - Analog - White.
+  - Ground - Black.
+  - Ground - Red.
+  - Vin - Green.
+  - I2C Clock - Yellow.
+  - I2C Data - Blue.
   
 ## Library used:
 
   - Wire: This library is used to do communication I2C
-<br>  
+
 ```
-#include <Wire.h> //
-#define SLAVE_ADDRESS 0x04 //
+#include <Wire.h> 
+#define SLAVE_ADDRESS 0x04 
 
 void setup()
 {
-    Wire.begin(SLAVE_ADDRESS); //
-    Wire.onReceive(receiveData); //
-    Wire.onRequest(sendData); //
+    Wire.begin(SLAVE_ADDRESS); 
+    Wire.onReceive(receiveData); 
+    Wire.onRequest(sendData); 
 }
 ```
 

@@ -28,7 +28,7 @@
 void setup()
 {
     Wire.begin(SLAVE_ADDRESS); 
-    Wire.onReceive(receiveData); 
+    Wire.onReceive(readData); 
     Wire.onRequest(sendData); 
 }
 ```

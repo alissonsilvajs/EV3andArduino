@@ -1,6 +1,7 @@
 # EV3 and Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Arduino-and-NXT-Schematic1-1024x480.png)
   A simple tutorial of how to communicate between the Arduino and the EV3, using I2C.
+  
  ### Requeriments
   - Arduino.
   - EV3.
@@ -18,7 +19,7 @@
   
 ## Library used:
 
-  - Wire: This library is used to do the communication using the I2C
+  - Wire: This library is used to do the communication using the I2C.
 
 ```
 #include <Wire.h> 
@@ -33,7 +34,7 @@ void setup()
 ```
 
 ## Send 1 byte to EV3
-  - `Wire.write();`: Send the byte 
+  - `Wire.write();`: Send the byte.
 ### Example:
 ```
 void sendData()
@@ -44,7 +45,7 @@ void sendData()
 ```
 
 ## Read 1 byte from EV3
-  - `Wire.read();`: Receive the byte
+  - `Wire.read();`: Receive the byte.
 ### Example:
 ```
 void readData()
@@ -57,7 +58,7 @@ void readData()
 ```
 
 ## Read 8 bytes from EV3
-  - `Wire.read();`: Receive the bytes 
+  - `Wire.read();`: Receive the bytes.
 ### Example:
 ```
 void readData()
@@ -74,9 +75,15 @@ void readData()
 
 ## Read 1 byte from Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+ 
 ## Read 8 bytes from Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+ 
 ## Send 1 byte from Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+ 
 ## Send 8 bytes from Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+
+## Credits
+ - [Alisson Silva](https://github.com/alissonsilvasec)

@@ -92,4 +92,4 @@ void readData()
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/analog_read.jpg)
 
 ## Credits
- - [Alisson Silva](https://github.com/alissonsilvasec)
+ - [Alisson Silva](https://github.com/alissonsilvam)

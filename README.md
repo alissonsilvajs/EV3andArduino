@@ -44,7 +44,7 @@ void sendData()
 }
 ```
 
-## Read 1 byte from EV3
+## Read 1 byte on Arduino
   - `Wire.read();`: Receive the byte.
 ### Example:
 ```
@@ -57,7 +57,7 @@ void readData()
 }
 ```
 
-## Read 8 bytes from EV3
+## Read 8 bytes on Arduino
   - `Wire.read();`: Receive the bytes.
 ### Example:
 ```
@@ -73,17 +73,23 @@ void readData()
 }
 ```
 
-## Read 1 byte from Arduino
+## Read 1 byte on EV3
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
  
-## Read 8 bytes from Arduino
+## Read 8 bytes on EV3
+![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+ 
+## Send 1 byte to Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
  
-## Send 1 byte from Arduino
+## Send 8 bytes to Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+
+## Read Analog Pin on EV3
+ ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/analog_read.jpg)
  
-## Send 8 bytes from Arduino
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+## Send Digital Write to Arduino on EV3
+ ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/analog_read.jpg)
 
 ## Credits
  - [Alisson Silva](https://github.com/alissonsilvasec)

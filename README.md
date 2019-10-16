@@ -18,7 +18,7 @@
   
 ## Library used:
 
-  - Wire: This library is used to do communication I2C
+  - Wire: This library is used to do the communication using the I2C
 
 ```
 #include <Wire.h> 

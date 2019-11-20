@@ -2,7 +2,7 @@
 #define SLAVE_ADDRESS 0x04 // Define port used to communicate between Arduino and EV3 
 
 int s2; // Variable used to send data to EV3
-string s3[8] = {"1","2","3","4","5","6","7","8"} // Variable used to receive data from EV3
+string s3[8] = {"1","2","3","4","5","6","7","8"}; // Variable used to receive data from EV3
 
 void setup()
 {

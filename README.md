@@ -50,8 +50,8 @@ void sendData()
 ```
 void sendData()
 {
-  int s2[8] = {"1","2","3","4","5","6","7","8"};
-  Wire.write(s2);
+  string s2[8] = {"1","2","3","4","5","6","7","8"};
+  Wire.write(s2,8);
 }
 ```
 

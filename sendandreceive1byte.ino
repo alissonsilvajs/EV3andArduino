@@ -1,3 +1,11 @@
+/*
+Project: Communication between EV3 and Arduino
+Arduino
+Created: 11/21/2019
+Email: alissonsilva.py@gmail.com
+by Alisson Silva
+*/
+
 #include <Wire.h> // Import the I2C library
 #define SLAVE_ADDRESS 0x04 // Define port used to communicate between Arduino and EV3 
 

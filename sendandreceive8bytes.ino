@@ -13,7 +13,7 @@ void setup()
 
 void sendData()
 {
-  Wire.write(s3); // Send data to EV3
+  Wire.write(s3, 8); // Send data to EV3
 }
 
 void readData()

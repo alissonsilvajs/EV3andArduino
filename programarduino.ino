@@ -1,8 +1,8 @@
 #include <Wire.h> // Import the I2C library
 #define SLAVE_ADDRESS 0x04 // Define port used to communicate between Arduino and EV3 
 
-int s2;
-int s3;
+int s2; // Variable used to send data to EV3
+int s3; // Variable used to receive data from EV3
 
 void setup()
 {

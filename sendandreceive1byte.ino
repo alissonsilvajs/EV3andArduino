@@ -1,6 +1,6 @@
 /*
 Project: Communication between EV3 and Arduino
-Arduino
+Send and Receive 1 byte
 Created: 11/21/2019
 Email: alissonsilva.py@gmail.com
 by Alisson Silva
@@ -31,4 +31,3 @@ void readData()
       int s2 = Wire.read(); // Read data sent by EV3
     }
 }
-

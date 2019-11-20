@@ -44,6 +44,17 @@ void sendData()
 }
 ```
 
+## Send 8 bytes to EV3
+  - `Wire.write();`: Send the bytes.
+### Example:
+```
+void sendData()
+{
+  int s2[8] = {"1","2","3","4","5","6","7","8"};
+  Wire.write(s2);
+}
+```
+
 ## Read 1 byte on Arduino
   - `Wire.read();`: Receive the byte.
 ### Example:
@@ -73,6 +84,10 @@ void readData()
 }
 ```
 
+## Address
+
+ - The address sent to Arduino is `0x45` or 4
+
 ## Read 1 byte on EV3
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
  
@@ -92,4 +107,4 @@ void readData()
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/analog_read.jpg)
 
 ## Credits
- - [Alisson Silva](https://github.com/alissonsilvam)
+ - [Alisson Silva](https://github.com/alissonsilvajs)

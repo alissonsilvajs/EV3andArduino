@@ -95,7 +95,7 @@ void readData()
 ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
  
 ## Send 1 byte to Arduino
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+ ![EV3andArduino](https://github.com/alissonsilvajs/EV3andArduino/blob/master/write1byte.png?raw=true)
  
 ## Send 8 bytes to Arduino
  ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)

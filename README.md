@@ -89,22 +89,22 @@ void readData()
  - The address sent to Arduino is `0x45` or 4
 
 ## Read 1 byte on EV3
- ![EV3andArduino](https://github.com/alissonsilvajs/EV3andArduino/blob/master/read1byte.png?raw=true)
+ ![EV3andArduino](https://raw.githubusercontent.com/alissonsilvajs/EV3andArduino/master/images/read1byte.png)
  
 ## Read 8 bytes on EV3
-![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+![EV3andArduino](https://raw.githubusercontent.com/alissonsilvajs/EV3andArduino/master/images/read8bytes.jpeg)
  
 ## Send 1 byte to Arduino
- ![EV3andArduino](https://github.com/alissonsilvajs/EV3andArduino/blob/master/write1byte.png?raw=true)
+ ![EV3andArduino](https://raw.githubusercontent.com/alissonsilvajs/EV3andArduino/master/images/write1byte.png)
  
 ## Send 8 bytes to Arduino
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/read_8_byte.jpg)
+ ![EV3andArduino](https://raw.githubusercontent.com/alissonsilvajs/EV3andArduino/master/images/write8bytes.jpeg)
 
 ## Read Analog Pin on EV3
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/analog_read.jpg)
+ ![EV3andArduino](https://raw.githubusercontent.com/alissonsilvajs/EV3andArduino/master/images/analogread.jpeg)
  
 ## Send Digital Write to Arduino on EV3
- ![EV3andArduino](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/analog_read.jpg)
+ ![EV3andArduino](https://raw.githubusercontent.com/alissonsilvajs/EV3andArduino/master/images/analogread.jpeg)
 
 ## Credits
  - [Alisson Silva](https://github.com/alissonsilvajs)

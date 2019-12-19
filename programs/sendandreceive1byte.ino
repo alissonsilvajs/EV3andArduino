@@ -14,7 +14,7 @@ int s3; // Variable used to receive data from EV3
 
 void setup()
 {
-    Serial.begin(9600); // Configure Serial with baud 9600;
+    Serial.begin(9600); // Configure Serial with baud 9600
     
     Wire.begin(SLAVE_ADDRESS); // Set the pin of I2C
     Wire.onReceive(readData); // When receive the data, read using I2C

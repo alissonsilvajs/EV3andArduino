@@ -36,9 +36,9 @@ void readData()
 {
     while(Wire.available()>0) // Verify if the Arduino is connected to EV3
     {
-      int s2 = Wire.read(); // Read data sent by EV3
+      s2 = Wire.read(); // Read data sent by EV3
       // Discard 7 bytes unused
-      for (int i = 0; i = 7; i++) {
+      for (int i = 0; i < 7; i++) {
         Wire.read();
     }
   }

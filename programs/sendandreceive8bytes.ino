@@ -15,9 +15,16 @@ uint8_t s3[0] = "ABCDEFGH"; // Variable used to receive data from EV3
 
 void setup()
 {
+    Serial.begin(9600); // Configure Serial with baud 9600
+    
     Wire.begin(SLAVE_ADDRESS); // Set the pin of I2C
     Wire.onReceive(readData); // When receive the data, read using I2C
     Wire.onRequest(sendData); // When send the data, send using I2C
+}
+
+void loop(){
+    Serial.print("Data received from EV3: "); // Show the data received from EV3 in Serial
+    Serial.print(s2);
 }
 
 void sendData()

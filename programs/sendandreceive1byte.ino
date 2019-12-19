@@ -2,6 +2,7 @@
 Project: Communication between EV3 and Arduino
 Send and Receive 1 byte
 Created: 11/21/2019
+Last modification: 12/19/2019
 Email: alissonsilva.py@gmail.com
 by Alisson Silva
 */

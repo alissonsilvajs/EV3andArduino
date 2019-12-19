@@ -62,7 +62,7 @@ void readData()
 {
     while(Wire.available()>0)
     {
-      int s2 = Wire.read();
+      s2 = Wire.read();
     }
 }
 ```
@@ -75,7 +75,7 @@ void readData()
 {
     while(Wire.available()>0)
     {
-      int s2 = Wire.read();
+      s2 = Wire.read();
       for (int i = 0; i = 7; i++) {
         Wire.read();
       }
@@ -85,7 +85,7 @@ void readData()
 
 ## Address
 
- - The address sent to Arduino is `0x45` or 4
+ - The address sent to Arduino is `0x04` or 4
 
 ## Read 1 byte on EV3
  ![EV3andArduino](https://raw.githubusercontent.com/alissonsilvajs/EV3andArduino/master/images/read1byte.png)

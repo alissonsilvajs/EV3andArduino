@@ -76,7 +76,7 @@ void readData()
     while(Wire.available()>0)
     {
       s2 = Wire.read();
-      for (int i = 0; i = 7; i++) {
+      for (int i = 0; i < 7; i++) {
         Wire.read();
       }
     }

@@ -38,7 +38,7 @@ void setup()
 ```
 void sendData()
 {
-  int s2 = 1
+  int s2 = 1;
   Wire.write(s2);
 }
 ```
